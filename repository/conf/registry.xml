@@ -352,4 +352,19 @@
         </task>
     </tasks-->
 
+    <dbConfig name="wso2gov">
+        <dataSource>jdbc/WSO2GovDB</dataSource>
+    </dbConfig>
+     
+    <remoteInstance url="https://localhost:9453/registry">
+        <id>wso2gov</id>
+        <dbConfig>wso2gov</dbConfig>
+        <readOnly>false</readOnly>
+        <registryRoot>/</registryRoot>
+    </remoteInstance>
+     
+    <mount path="/_system/governance" overwrite="true">
+        <instanceId>wso2gov</instanceId>
+        <targetPath>/_system/governance</targetPath>
+    </mount>
 </wso2registry>
