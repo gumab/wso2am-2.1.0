@@ -27,11 +27,11 @@
     "externalLogoutPage" : "https://localhost:9443/samlsso?slo=true"
   },
   "reverseProxy": {
-    "enabled": false,
+    "enabled": true,
     // values true , false , "auto" - will look for  X-Forwarded-* headers
-    "host": "sample.proxydomain.com",
+    "host": "wso-g-lb.koreasouth.cloudapp.azure.com",
     // If reverse proxy do not have a domain name use IP
-    "context": ""
+    "context": "/admin"
     //"regContext":"" // Use only if different path is used for registry
   }
 }
