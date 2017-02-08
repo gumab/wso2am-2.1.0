@@ -684,7 +684,7 @@
         -->
         <!-- The host name or IP address of this member -->
 
-        <parameter name="localMemberHost">10.2.2.5</parameter>
+        <parameter name="localMemberHost">10.2.2.8</parameter>
 
         <!--
             The bind adress of this member. The difference between localMemberHost & localMemberBindAddress
