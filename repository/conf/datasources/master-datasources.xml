@@ -37,8 +37,8 @@
                 <configuration>
                     <driverClassName>com.mysql.jdbc.Driver</driverClassName>
                     <url>jdbc:mysql://wso-mysql.koreasouth.cloudapp.azure.com:3306/apimgtdb</url>
-                    <username>root</username>
-                    <password>root</password>
+                    <username>wso2carbon</username>
+                    <password>wso2carbon</password>
                     <maxActive>50</maxActive>
                     <maxWait>60000</maxWait>
                     <minIdle>5</minIdle>
