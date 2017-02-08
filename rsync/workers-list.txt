@@ -1,0 +1,2 @@
+wso2user@10.2.2.7:~/setup/10.2.2.7/as/as_worker/repository/deployment/server
+wso2user@10.2.2.8:~/setup/10.2.2.8/as/as_worker/repository/deployment/server
