@@ -119,7 +119,6 @@
                     <defaultAutoCommit>false</defaultAutoCommit>
                 </configuration>
             </definition>
-            </definition>
          </datasource>
 
         <datasource>
@@ -142,7 +141,6 @@
                     <validationInterval>30000</validationInterval>
                     <defaultAutoCommit>false</defaultAutoCommit>
                 </configuration>
-            </definition>
             </definition>
         </datasource>
 
