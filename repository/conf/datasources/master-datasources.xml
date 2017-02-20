@@ -14,11 +14,11 @@
             </jndiConfig>
             <definition type="RDBMS">
                 <configuration>
-                    <url>jdbc:h2:repository/database/WSO2CARBON_DB;DB_CLOSE_ON_EXIT=FALSE</url>
+                    <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
                     <password>wso2carbon</password>
-                    <driverClassName>org.h2.Driver</driverClassName>
-                    <maxActive>50</maxActive>
+                    <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
+                    <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
                     <testOnBorrow>true</testOnBorrow>
                     <validationQuery>SELECT 1</validationQuery>
@@ -35,17 +35,15 @@
             </jndiConfig>
             <definition type="RDBMS">
                 <configuration>
-                    <driverClassName>com.mysql.jdbc.Driver</driverClassName>
-                    <url>jdbc:mysql://wso-mysql.koreasouth.cloudapp.azure.com:3306/apimgtdb</url>
+                    <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
                     <password>wso2carbon</password>
-                    <maxActive>50</maxActive>
+                    <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
+                    <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
-                    <minIdle>5</minIdle>
                     <testOnBorrow>true</testOnBorrow>
                     <validationQuery>SELECT 1</validationQuery>
                     <validationInterval>30000</validationInterval>
-                    <defaultAutoCommit>false</defaultAutoCommit>
                 </configuration>
             </definition>
         </datasource>
@@ -59,17 +57,15 @@
             </jndiConfig>
             <definition type="RDBMS">
                 <configuration>
-                    <driverClassName>com.mysql.jdbc.Driver</driverClassName>
-                    <url>jdbc:mysql://wso-mysql.koreasouth.cloudapp.azure.com:3306/regdb</url>
+                    <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
                     <password>wso2carbon</password>
-                    <maxActive>50</maxActive>
+                    <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
+                    <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
-                    <minIdle>5</minIdle>
                     <testOnBorrow>true</testOnBorrow>
                     <validationQuery>SELECT 1</validationQuery>
                     <validationInterval>30000</validationInterval>
-                    <defaultAutoCommit>false</defaultAutoCommit>
                 </configuration>
             </definition>
         </datasource>
@@ -83,17 +79,15 @@
             </jndiConfig>
             <definition type="RDBMS">
                 <configuration>
-                    <driverClassName>com.mysql.jdbc.Driver</driverClassName>
-                    <url>jdbc:mysql://wso-mysql.koreasouth.cloudapp.azure.com:3306/userdb</url>
+                    <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
                     <password>wso2carbon</password>
-                    <maxActive>50</maxActive>
+                    <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
+                    <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
-                    <minIdle>5</minIdle>
                     <testOnBorrow>true</testOnBorrow>
                     <validationQuery>SELECT 1</validationQuery>
                     <validationInterval>30000</validationInterval>
-                    <defaultAutoCommit>false</defaultAutoCommit>
                 </configuration>
             </definition>
         </datasource>
@@ -106,17 +100,15 @@
             </jndiConfig>
             <definition type="RDBMS">
                 <configuration>
-                    <driverClassName>com.mysql.jdbc.Driver</driverClassName>
-                    <url>jdbc:mysql://wso-mysql.koreasouth.cloudapp.azure.com:3306/statdb</url>
+                    <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
                     <password>wso2carbon</password>
-                    <maxActive>50</maxActive>
+                    <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
+                    <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
-                    <minIdle>5</minIdle>
                     <testOnBorrow>true</testOnBorrow>
                     <validationQuery>SELECT 1</validationQuery>
                     <validationInterval>30000</validationInterval>
-                    <defaultAutoCommit>false</defaultAutoCommit>
                 </configuration>
             </definition>
          </datasource>
@@ -129,17 +121,15 @@
             </jndiConfig>
             <definition type="RDBMS">
                 <configuration>
-                    <driverClassName>com.mysql.jdbc.Driver</driverClassName>
-                    <url>jdbc:mysql://wso-mysql.koreasouth.cloudapp.azure.com:3306/mbstoredb</url>
+                    <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
                     <password>wso2carbon</password>
-                    <maxActive>50</maxActive>
+                    <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
+                    <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
-                    <minIdle>5</minIdle>
                     <testOnBorrow>true</testOnBorrow>
                     <validationQuery>SELECT 1</validationQuery>
                     <validationInterval>30000</validationInterval>
-                    <defaultAutoCommit>false</defaultAutoCommit>
                 </configuration>
             </definition>
         </datasource>
