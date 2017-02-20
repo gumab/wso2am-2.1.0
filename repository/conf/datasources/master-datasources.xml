@@ -16,7 +16,7 @@
                 <configuration>
                     <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
-                    <password>wso2carbon</password>
+                    <password>Dkssudgktpdy1!</password>
                     <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
                     <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
@@ -37,7 +37,7 @@
                 <configuration>
                     <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
-                    <password>wso2carbon</password>
+                    <password>Dkssudgktpdy1!</password>
                     <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
                     <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
@@ -59,7 +59,7 @@
                 <configuration>
                     <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
-                    <password>wso2carbon</password>
+                    <password>Dkssudgktpdy1!</password>
                     <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
                     <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
@@ -81,7 +81,7 @@
                 <configuration>
                     <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
-                    <password>wso2carbon</password>
+                    <password>Dkssudgktpdy1!</password>
                     <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
                     <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
@@ -102,7 +102,7 @@
                 <configuration>
                     <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
-                    <password>wso2carbon</password>
+                    <password>Dkssudgktpdy1!</password>
                     <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
                     <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
@@ -123,7 +123,7 @@
                 <configuration>
                     <url>jdbc:sqlserver://wso-mssql.database.windows.net:1433;databaseName=wso2greg</url>
                     <username>wso2carbon</username>
-                    <password>wso2carbon</password>
+                    <password>Dkssudgktpdy1!</password>
                     <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
                     <maxActive>80</maxActive>
                     <maxWait>60000</maxWait>
