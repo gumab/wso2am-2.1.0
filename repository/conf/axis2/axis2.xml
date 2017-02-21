@@ -633,7 +633,7 @@
      getting this node to join the cluster.
      -->
     <clustering class="org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent"
-                enable="true">
+                enable="false">
 
         <!--
            This parameter indicates whether the cluster has to be automatically initalized
@@ -655,7 +655,7 @@
                     is deemed to have left the cluster, it will be detected by the Group Membership
                     Service (GMS) using a TCP ping mechanism.
         -->
-        <parameter name="membershipScheme">wka</parameter>
+        <parameter name="membershipScheme">multicast</parameter>
         <!--<parameter name="licenseKey">xxx</parameter>-->
         <!--<parameter name="mgtCenterURL">http://localhost:8081/mancenter/</parameter>-->
 
@@ -663,7 +663,7 @@
          The clustering domain/group. Nodes in the same group will belong to the same multicast
          domain. There will not be interference between nodes in different groups.
         -->
-        <parameter name="domain">wso-g-lb.koreasouth.cloudapp.azure.com</parameter>
+        <parameter name="domain">wso2.carbon.domain</parameter>
 
         <!-- The multicast address to be used -->
         <!--<parameter name="mcastAddress">228.0.0.4</parameter>-->
@@ -684,7 +684,7 @@
         -->
         <!-- The host name or IP address of this member -->
 
-        <parameter name="localMemberHost">10.2.2.5</parameter>
+        <parameter name="localMemberHost">127.0.0.1</parameter>
 
         <!--
             The bind adress of this member. The difference between localMemberHost & localMemberBindAddress
@@ -725,15 +725,7 @@
         -->
         <members>
             <member>
-                <hostName>10.2.2.5</hostName>
-                <port>4000</port>
-            </member>
-            <member>
-                <hostName>10.2.2.7</hostName>
-                <port>4000</port>
-            </member>
-            <member>
-                <hostName>10.2.2.8</hostName>
+                <hostName>127.0.0.1</hostName>
                 <port>4000</port>
             </member>
         </members>
