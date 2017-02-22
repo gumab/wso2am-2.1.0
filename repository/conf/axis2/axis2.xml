@@ -729,6 +729,10 @@
                 <port>4000</port>
             </member>
             <member>
+                <hostName>10.2.2.6</hostName>
+                <port>4000</port>
+            </member>
+            <member>
                 <hostName>10.2.2.7</hostName>
                 <port>4000</port>
             </member>
