@@ -356,7 +356,7 @@
         <dataSource>jdbc/WSO2GovDB</dataSource>
     </dbConfig>
      
-    <remoteInstance url="https://localhost:9453/registry">
+    <remoteInstance url="https://10.2.2.5:9453/registry">
         <id>wso2gov</id>
         <dbConfig>wso2gov</dbConfig>
         <readOnly>false</readOnly>
