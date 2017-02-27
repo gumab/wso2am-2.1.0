@@ -652,7 +652,7 @@
         -->
         <!-- The host name or IP address of this member -->
 
-        <parameter name="localMemberHost">10.2.2.4</parameter>
+        <parameter name="localMemberHost">10.2.2.12</parameter>
 
         <!--
             The bind adress of this member. The difference between localMemberHost & localMemberBindAddress
@@ -710,7 +710,7 @@
         -->
         <members>
             <member>
-                <hostName>10.2.2.12</hostName>
+                <hostName>10.2.2.4</hostName>
                 <port>4000</port>
             </member>
         </members>
