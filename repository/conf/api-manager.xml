@@ -574,8 +574,8 @@
         <DataPublisher>
             <Enabled>true</Enabled>
             <Type>Binary</Type>
-            <ReceiverUrlGroup>tcp://${carbon.local.ip}:${receiver.url.port}</ReceiverUrlGroup>
-            <AuthUrlGroup>ssl://${carbon.local.ip}:${auth.url.port}</AuthUrlGroup>
+            <ReceiverUrlGroup>{tcp://10.2.2.4:9611, tcp://10.2.2.12:9611}</ReceiverUrlGroup>
+            <AuthUrlGroup>{ssl://10.2.2.4:9711, ssl://10.2.2.12:9711}</AuthUrlGroup>
             <Username>${admin.username}</Username>
             <Password>${admin.password}</Password>
             <DataPublisherPool>
@@ -589,7 +589,7 @@
             </DataPublisherThreadPool>
         </DataPublisher>
         <PolicyDeployer>
-            <ServiceURL>https://localhost:${mgt.transport.https.port}${carbon.context}services/</ServiceURL>
+            <ServiceURL>https://10.2.2.13:9443/services/</ServiceURL>
             <Username>${admin.username}</Username>
             <Password>${admin.password}</Password>
         </PolicyDeployer>
@@ -609,7 +609,7 @@
                 <transport.jms.ConnectionFactoryJNDIName>TopicConnectionFactory</transport.jms.ConnectionFactoryJNDIName>
                 <transport.jms.DestinationType>topic</transport.jms.DestinationType>
                 <java.naming.factory.initial>org.wso2.andes.jndi.PropertiesFileInitialContextFactory</java.naming.factory.initial>
-                <connectionfactory.TopicConnectionFactory>amqp://${jms.username}:${jms.password}@clientid/carbon?brokerlist='${jms.url}'</connectionfactory.TopicConnectionFactory>
+                <connectionfactory.TopicConnectionFactory>amqp://${jms.username}:${jms.password}@clientid/carbon?failover='roundrobin'%26cyclecount='2'%26brokerlist='tcp://10.2.2.4:5672?retries='5'%26connectdelay='50';tcp://10.2.2.12:5672?retries='5'%26connectdelay='50''</connectionfactory.TopicConnectionFactory>
             </JMSConnectionParameters>
             <JMSTaskManager>
                 <MinThreadPoolSize>20</MinThreadPoolSize>
