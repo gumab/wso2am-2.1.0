@@ -600,7 +600,7 @@
         </BlockCondition>
         <JMSConnectionDetails>
             <Enabled>true</Enabled>
-            <ServiceURL>tcp://${carbon.local.ip}:${jms.port}</ServiceURL>
+            <ServiceURL>tcp://10.2.2.13:5672</ServiceURL>
             <Username>${admin.username}</Username>
             <Password>${admin.password}</Password>
             <Destination>throttleData</Destination>
