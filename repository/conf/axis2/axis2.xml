@@ -280,6 +280,7 @@
            need to specify the HTTPS port of the application server
         -->
         <parameter name="port">9443</parameter>
+        <parameter name="HostnameVerifier">AllowAll</parameter>
 
         <!--
        Uncomment the following to enable any proxy like Apache2 mod_proxy or any load balancer. The port on a proxy server like Apache is 443
