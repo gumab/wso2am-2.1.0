@@ -589,7 +589,7 @@
             </DataPublisherThreadPool>
         </DataPublisher>
         <PolicyDeployer>
-            <ServiceURL>https://10.2.2.13:9443/services/</ServiceURL>
+            <ServiceURL>https://wso-psk-lb.koreasouth.cloudapp.azure.com:443/services/</ServiceURL>
             <Username>${admin.username}</Username>
             <Password>${admin.password}</Password>
         </PolicyDeployer>
